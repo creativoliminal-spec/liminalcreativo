@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+header{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+
+}
+}
+nav a {
+    display: inline-block;
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    margin: 0 60px;
+    padding: 5px 10px ;
+    border-radius: 30px;
+    font-weight: bold ;
+}
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.encabezado-ing{
+    background-image: url(LC\ 1.jpeg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 80px;
+}
+.encabezado-ing{
+    font-size: 16px;
+}
+.encabezado-ing{
+    H: 1px; font-size: 20px;
+}
+img{
+    width:  720px;
+    height: 320px;
+}
+.intermedio-ing{
+    background-image: url(LC\ 2.jpeg);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 85px;
+}
+.intermedio-ing{
+    H: 10px; font-size: 15px;
+}
+.seccion {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.bg1{
+  background-color: #FAFAFA
+}
+.bg2{
+    background-color: #FAFAFA
+}
+.bg3{
+    background-color: black;
+    color: rgb(255, 255, 255)
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+}
+.galeria .item{
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgb(63, 63, 63);
+    transition: transform 0.5s;
+}
+.galeria .item:hover{
+    transform: scale(1.05);
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.formulariocontacto{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-inline: auto;
+}
+.formulariocontacto input, .formulariocontacto textarea{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    background-color: antiquewhite;
+    color: black;
+    outline: none;
+    transition: box-shadow 0.8s;
+}
+.formulariocontacto input:focus, .formulariocontacto textarea:focus{
+    box-sizing: 0 0 3px rgb(255, 255, 255);
+}
+.formulariocontacto textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.formulariocontacto button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer
+}
+.formulariocontacto button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.formulariocontacto{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-inline: auto;
+    text-align: left;
+}
